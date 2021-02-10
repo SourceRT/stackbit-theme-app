@@ -3,7 +3,6 @@ title: News
 sections:
   - type: hero_section
     title: News
-    subtitle: The optional subtitle
     align: center
     padding_top: medium
     padding_bottom: none
@@ -12,19 +11,20 @@ sections:
     blog_feed_cols: three
     enable_cards: true
     show_recent: false
-    category: data/categories/news.json
+    category: data/categories/news.yaml
     show_date: true
     show_categories: true
-    show_author: true
+    show_author: false
     show_excerpt: true
     show_image: true
     padding_top: small
     padding_bottom: large
     has_border: true
   - type: form_section
-    title: Inline Form
+    title: Newsletter Signup
     title_align: center
-    content: Subscribe to our newsletter to make sure you don't miss anything.
+    content: >-
+      Subscribe to our newsletter to make sure you don't miss anything.
     content_align: center
     form_position: bottom
     form_layout: inline
@@ -41,5 +41,31 @@ sections:
     padding_bottom: medium
     has_border: true
     background_color: secondary
+seo:
+  title: Posts in News
+  description: This is the category archive page
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Posts in News
+      keyName: property
+    - name: og:description
+      value: This is the category archive page
+      keyName: property
+    - name: og:image
+      value: images/post-4.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Posts in News
+    - name: twitter:description
+      value: This is the category archive page
+    - name: twitter:image
+      value: images/post-4.jpg
+      relativeUrl: true
 layout: advanced
 ---

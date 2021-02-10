@@ -4,8 +4,7 @@ sections:
   - type: hero_section
     title: Thank You!
     subtitle: >-
-      Thank you for testing DIY template. Have
-      a great day!
+      Thank you for testing the App template. Have a great day!
     actions:
       - label: Back to homepage
         url: /

@@ -1,18 +1,18 @@
 baseurl: "/"
-title: "Stackbit DIY Theme"
-init_is: "js/init.js"
+title: "Stackbit App Theme"
+init_js: "js/init.js"
 page_load_js: "js/page-load.js"
 page_unload_js: "js/page-unload.js"
 params:
-  description: A "do it yourself" theme for Stackbit
-  layout: full-width
+  layout_type: full-width
   style: minimal
   palette: blue
   mode: light
   base_font: sans-serif
   header:
-    title: DIY
+    title: App
     logo: "images/logo.svg"
+    logo_alt: App logo
     has_primary_nav: true
     primary_nav_links:
       - label: Pricing
@@ -44,6 +44,7 @@ params:
     anncmnt_id: new-features
   footer:
     logo: "images/logo.svg"
+    logo_alt: App logo
     has_primary_nav: true
     primary_nav_title: Company
     primary_nav_links:
@@ -97,25 +98,22 @@ params:
         icon: linkedin
         icon_position: center
         new_window: true
-      - label: LinkedIn
+      - label: YouTube
         url: https://www.youtube.com/
         style: link
         has_icon: true
         icon: youtube
         icon_position: center
         new_window: true
-      - label: LinkedIn
+      - label: Vimeo
         url: https://vimeo.com/
         style: link
         has_icon: true
         icon: vimeo
         icon_position: center
         new_window: true
-    content: "&copy; Stackbit-DIY. All rights reserved."
-    links:
-      - label: Made with Stackbit.
-        url: https://www.stackbit.com
-        style: link
+    content: >-
+      &copy; Stackbit. All rights reserved. This Jamstack site was created with <a href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank" rel="noopener">Stackbit</a>. Create yours <a href="https://app.stackbit.com/create?theme=app&utm_source=deployed-footer" target="_blank" rel="noopener">now</a>
 sass:
   input_file: sass/main.scss
   output_file: css/main.css
@@ -123,4 +121,4 @@ sass:
   outputStyle: expanded
   precision: 10
 templates:
-  body_class: "layout-{{ site.params.layout }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"
+  body_class: "layout-{{ site.params.layout_type }} style-{{ site.params.style }} palette-{{ site.params.palette }} mode-{{ site.params.mode }} font-{{ site.params.base_font }}"

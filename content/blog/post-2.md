@@ -1,19 +1,44 @@
 ---
 title: Managing a Team Productively
 subtitle: >-
-  Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me
-  vocas, eum.
-date: '2020-05-25'
+  Idemque diviserunt naturam hominis in animum et corpus. Si enim ad populum me vocas, eum.
+date: 2020-05-25
 categories:
-  - data/categories/news.json
-  - data/categories/general.json
-tags:
-  - data/tags/jamstack.json
-  - data/tags/netlify.json
-excerpt: "How to handle multiple cross functional tasks and projects with App Land —\_the tools and tricks of the trade."
+  - data/categories/news.yaml
+  - data/categories/general.yaml
+excerpt: >-
+  How to handle multiple cross functional tasks and projects with App Land — the tools and tricks of the trade.
 thumb_image: images/post-4.jpg
+thumb_image_alt: Post 2 placeholder image
 image: images/post-4.jpg
+image_alt: Post 2 placeholder image
 image_position: left
+seo:
+  title: Managing a Team Productively
+  description: Quae diligentissime contra Aristonem dicuntur a Chryippo
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Managing a Team Productively
+      keyName: property
+    - name: og:description
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+      keyName: property
+    - name: og:image
+      value: images/post-4.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Managing a Team Productively
+    - name: twitter:description
+      value: Quae diligentissime contra Aristonem dicuntur a Chryippo
+    - name: twitter:image
+      value: images/post-4.jpg
+      relativeUrl: true
 layout: post
 ---
 

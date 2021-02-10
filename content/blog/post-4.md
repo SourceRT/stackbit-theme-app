@@ -1,22 +1,48 @@
 ---
 title: Making Time for What's Important
 subtitle: >-
-  Negat esse eam, inquit, propter se expetendam. Ergo, si semel tristior
-  effectus est, hilara vita amissa est.
-date: '2020-05-30'
+  Negat esse eam, inquit, propter se expetendam. Ergo, si semel tristior effectus est, hilara vita amissa est.
+date: 2020-05-30
 categories:
-  - data/categories/tutorials.json
-  - data/categories/news.json
+  - data/categories/tutorials.yaml
+  - data/categories/news.yaml
 tags:
-  - data/tags/jamstack.json
-  - data/tags/sourcebit.json
+  - data/tags/tips.yaml
 excerpt: >-
   We often forget to make time on the calendar for the things and people that
   matter most. Make sure your calendar and task list reflect the personal calls
   and family time you need.
 thumb_image: images/post-2.jpg
+thumb_image_alt: Post 4 placeholder image
 image: images/post-2.jpg
+image_alt: Post 4 placeholder image
 image_position: right
+seo:
+  title: Making Time for What's Important
+  description: Itaque hoc frequenter dici solet a vobis, non intellegere nos
+  extra:
+    - name: og:type
+      value: website
+      keyName: property
+    - name: og:title
+      value: Making Time for What's Important
+      keyName: property
+    - name: og:description
+      value: Itaque hoc frequenter dici solet a vobis, non intellegere nos
+      keyName: property
+    - name: og:image
+      value: images/post-2.jpg
+      keyName: property
+      relativeUrl: true
+    - name: twitter:card
+      value: summary_large_image
+    - name: twitter:title
+      value: Making Time for What's Important
+    - name: twitter:description
+      value: Itaque hoc frequenter dici solet a vobis, non intellegere nos
+    - name: twitter:image
+      value: images/post-2.jpg
+      relativeUrl: true
 layout: post
 ---
 
