@@ -22,7 +22,7 @@ seo:
   description: Itaque hoc frequenter dici solet a vobis, non intellegere nos
   extra:
     - name: og:type
-      value: website
+      value: article
       keyName: property
     - name: og:title
       value: Making Time for What's Important
